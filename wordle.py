@@ -28,7 +28,6 @@ def funcionCompararPalabras(adivinar, usuario):
                     print(colored(char, "grey"), end=" ")
         print("\n")
 palabraAdivinar = random.choice(palabras_5_letras)
-print(palabraAdivinar)
 intentos= 5
 print("introduce una palabra de 5 letras")
 while intentos > 0:
